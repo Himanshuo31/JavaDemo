@@ -13,11 +13,11 @@ public class Pangram {
              { 
                 if(arr[i]==0)
               {
-                System.out.println("Not Pangram");
+                System.out.println("String is Not Pangram");
                 flag=true;
               }
             }
             if(flag==false)
-              System.out.println("Pangram");
+              System.out.println("String is Pangram");
         }
 }
